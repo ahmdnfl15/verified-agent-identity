@@ -6,7 +6,7 @@ on:
       agent_name:
         description: 'Nama Agen'
         required: true
-        default: 'Bang Bunch . json
+        default: 'Bang Bunch
       agent_description:
         description: 'Deskripsi Agen'
         required: true
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "Nama_Agen_Kamu", "description": "AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "Bang Bunch", "description": "AI Agent"}'
