@@ -6,7 +6,7 @@ on:
       agent_name:
         description: 'Nama Agen'
         required: true
-        default: 'Bang Bunch
+        default: 'Bang Bunch . json
       agent_description:
         description: 'Deskripsi Agen'
         required: true
